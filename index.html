@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+  <title> Shopping Card </title>
+</head>
+
+<body class="">
+
+  <main class="container-fluid">
+    <div class="row justify-content-md-center">
+      <section class="items-list col ">
+        <div class="d-flex item">
+          <div class="item-img">
+            <img class="" src="./res/img/garden_cart.png" alt="">
+          </div>
+          <div class="item-content">
+            <h5 class="item-title">Garden Cart</h5>
+            <p class="item-description">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="item-price">
+            <span>15 DT </span>
+          </div>
+          <div>
+            <button class="like-button" id="1"> </button>
+          </div>
+          <div class="d-flex align-items-center">
+            <button class="btn btn-outline-dark" onclick="addItem('garden cart',15)">+</button>
+            <button class="btn btn-outline-dark" onclick="deleteItem('garden cart')">-</button>
+          </div>
+        </div>
+
+        <div class="d-flex item">
+          <div class="item-img">
+            <img class="" src="./res/img/hammer.png" alt="">
+          </div>
+          <div class="item-content">
+            <h5 class="item-title">Hammer</h5>
+            <p class="item-description">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="item-price">
+            17 DT
+          </div>
+          <div>
+            <button class="like-button" id="2"> </button>
+          </div>
+          <div class="d-flex align-items-center">
+            <button class="btn btn-outline-dark" onclick="addItem('hammer',17)">+</button>
+            <button class="btn btn-outline-dark" onclick="deleteItem('hammer')">-</button>
+          </div>
+        </div>
+
+        <div class="d-flex item">
+          <div class="item-img">
+            <img class="" src="./res/img/leaf_rake.png" alt="">
+          </div>
+          <div class="item-content">
+            <h5 class="item-title">Card title</h5>
+            <p class="item-description">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="item-price">
+            23 DT
+          </div>
+          <div>
+            <button class="like-button" id="3"> </button>
+          </div>
+          <div class="d-flex align-items-center">
+            <button class="btn btn-outline-dark" onclick="addItem('leaf rake',23)">+</button>
+            <button class="btn btn-outline-dark" onclick="deleteItem('leaf rake')">-</button>
+          </div>
+        </div>
+
+        <div class="d-flex item">
+          <div class="item-img">
+            <img class="" src="./res/img/saw.png" alt="">
+          </div>
+          <div class="item-content">
+            <h5 class="item-title">Saw</h5>
+            <p class="item-description">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="item-price">
+            8 DT
+          </div>
+          <div>
+            <button class="like-button" id="4"> </button>
+          </div>
+          <div class="d-flex align-items-center">
+            <button class="btn btn-outline-dark" onclick="addItem('saw',8)">+</button>
+            <button class="btn btn-outline-dark" onclick="deleteItem('saw')">-</button>
+          </div>
+        </div>
+
+        <div class="d-flex item">
+          <div class="item-img">
+            <img class="" src="./res/img/xbox-controller.png" alt="">
+          </div>
+          <div class="item-content">
+            <h5 class="item-title">Xbox Controller</h5>
+            <p class="item-description">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="item-price">
+            112 DT
+          </div>
+          <div>
+            <button class="like-button" id="5"> </button>
+          </div>
+          <div class="d-flex align-items-center">
+            <button class="btn btn-outline-dark" onclick="addItem('xbox controller',112)">+</button>
+            <button class="btn btn-outline-dark" onclick="deleteItem('xbox controller')">-</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="my-list" class="baught col">baught</section>
+    </div>
+  </main>
+
+  <footer></footer>
+
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

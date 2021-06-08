@@ -1,0 +1,10 @@
+flexbix on items
+
+(cross axis)
+align-self-start
+align-self-end
+align-self-center
+align-self-baseline
+align-self-stretch
+
+order-0 - order-1 - order-2
